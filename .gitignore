@@ -1,2 +1,2 @@
-./bash-scripts/current-logs/*
-!./bash-scripts/current-logs/.gitkeep
+bash-collection/current-logs/*
+!bash-collection/current-logs/.gitkeep
