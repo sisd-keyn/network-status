@@ -1,5 +1,3 @@
-This project monitors the network constantly, logs the results, and displays the information. 
+This project monitors the network constantly, logs the results, and displays the information. It's not done yet. 
 
-For now, I will just upload the bash files I made to do this. 
-
-Later, I will  make a database to store the logged data and make a webapp that displays the results in a digestable manner. 
+In the bash-collection dir, I added all the bash files I created earlier that inspired me to make a webapp.
