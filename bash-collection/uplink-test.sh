@@ -2,7 +2,7 @@
 
 IP=8.8.8.8
 
-LOG_FILE="current_logs/uplink_ping_$(date "+%F").log"
+LOG_FILE="current-logs/uplink-ping-$(date "+%F").log"
 exec >> "$LOG_FILE" 2>&1
 
 start_date=$(date +%F)

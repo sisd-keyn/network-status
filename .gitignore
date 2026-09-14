@@ -1,0 +1,2 @@
+./bash-scripts/current-logs/*
+!./bash-scripts/current-logs/.gitkeep

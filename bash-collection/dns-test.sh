@@ -2,7 +2,7 @@
 
 FQDN="google.com"
 
-LOG_FILE="current_logs/dns_test_$(date +%F).log"
+LOG_FILE="current-logs/dns-test-$(date +%F).log"
 exec >> "$LOG_FILE" 2>&1
 
 start_date=$(date +%F)
