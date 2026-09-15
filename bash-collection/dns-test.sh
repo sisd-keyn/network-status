@@ -15,4 +15,4 @@ while [ $(date +%F) = $start_date ]; do
 	sleep 1
 done
 
-mv $LOG_FILE old_logs
+mv $LOG_FILE old-logs
