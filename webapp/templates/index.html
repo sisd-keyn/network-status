@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Network Status</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: #111;
+            color: #eee;
+        }
+        .pct {
+            font-size: 5rem;
+            font-weight: bold;
+        }
+        .label {
+            font-size: 1.2rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    {% if uptime_pct is not none %}
+        <div class="pct">{{ uptime_pct }}%</div>
+        <div class="label">uptime today ({{ total }} pings)</div>
+    {% else %}
+        <div class="pct">--</div>
+        <div class="label">no ping data yet today</div>
+    {% endif %}
+</body>
+</html>
